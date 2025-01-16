@@ -18,7 +18,7 @@ function AsideMenu() {
           <div className="menu-item py-2">
             <a
               className="menu-link active menu-center"
-              href="../../demo6/dist/index.html"
+              href="#"
               data-bs-trigger="hover"
               data-bs-dismiss="click"
               data-bs-placement="right"
@@ -26,7 +26,7 @@ function AsideMenu() {
               <span className="menu-icon me-0">
                 <i className="bi bi-house fs-2"></i>
               </span>
-              <span className="menu-title">Home</span>
+              <span className="menu-title">Accueil</span>
             </a>
           </div>
         </div>
