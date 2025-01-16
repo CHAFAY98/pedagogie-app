@@ -2,13 +2,13 @@ function LogoComponent() {
   return (
     <div className="aside-logo py-8" id="kt_aside_logo">
       <a
-        href="../../demo6/dist/index.html"
+        href="#"
         className="d-flex align-items-center"
       >
         <img
           alt="Logo"
-          src="src/assets/media/logos/logo-demo6.svg"
-          className="h-45px logo"
+          src="src/assets/media/logos/pedagogique-logo.png"
+          className="h-100px logo"
         />
       </a>
     </div>

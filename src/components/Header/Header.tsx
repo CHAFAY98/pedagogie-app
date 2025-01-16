@@ -1,7 +1,10 @@
 function HeaderComponent() {
   return (
     <div id="kt_header" className="header align-items-stretch">
-      <div className="container-fluid d-flex align-items-stretch justify-content-between">
+      <div className="container-fluid d-flex align-items-center justify-content-between">
+      <div className="d-flex align-items-stretch justify-content-center text-center flex-lg-grow-1">
+        <h1 className="h1" style={{fontSize:"30px"}}>📗📕📚 APPLICATION CELLULE PEDAGOGIE 📚📕📗</h1>
+      </div>
         <div
           className="d-flex align-items-center d-lg-none ms-n1 me-2"
           title="Show aside menu"
