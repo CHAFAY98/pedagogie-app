@@ -23,6 +23,7 @@ function HomeComponent() {
       (specialite) => specialite.id_stage === id
     );
     setSpecialites(filteredSpecialites);
+    setMatieres([]);
   };
 
   const specialiteTap = (id: number) => {
@@ -106,7 +107,7 @@ function HomeComponent() {
         <div className="d-flex flex-wrap flex-stack">
           <h3 className="fw-bolder my-2">
             Liste des matires
-            <span className="fs-6 fw-bold ms-1">(0)</span>
+            <span className="fs-6 fw-bold ms-1">({matieres.length})</span>
           </h3>
 
           <div className="d-flex my-2">

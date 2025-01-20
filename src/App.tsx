@@ -1,6 +1,8 @@
 import Aside from "./components/Aside/Aside";
 import HeaderComponent from "./components/Header/Header";
 import HomeComponent from "./components/Pages/Home";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 function App() {
   return (
     <div className="page d-flex flex-row flex-column-fluid">

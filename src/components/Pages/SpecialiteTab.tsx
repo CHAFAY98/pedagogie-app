@@ -14,7 +14,7 @@ function SpecialiteTab(props: SpecialiteTabProps) {
       onClick={() => props.tap(props.id)}
     >
       <span className="svg-icon fs-2">
-        <i className="bi bi-bookmarks-fill fs-2"></i>
+        <i className="bi bi-caret-right-fill fs-2"></i>
       </span>
       {props.libelle}
       <span className="position-absolute top-0 start-100 translate-middle badge badge-circle badge-success">

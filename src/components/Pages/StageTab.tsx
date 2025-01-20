@@ -14,7 +14,7 @@ function StageTab(props: StageTabProps) {
       onClick={() => props.tap(props.id)}
     >
       <span className="svg-icon fs-1">
-        <i className="bi bi-bookmarks-fill fs-2x"></i>
+        <i className="bi bi-journal-bookmark-fill fs-2x"></i>
       </span>
       {props.libelle}
       <span className="position-absolute top-0 start-100 translate-middle badge badge-circle badge-success">
